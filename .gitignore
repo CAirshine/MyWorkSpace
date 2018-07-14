@@ -1,0 +1,14 @@
+# files to ignore
+
+# folders
+.metadata/*
+.recommenders/*
+apache-jmeter-4.0/*
+RemoteSystemsTempFiles/*
+Servers/*
+
+# files
+.classpath
+.project
+*/.settings/*
+*/bin/*
