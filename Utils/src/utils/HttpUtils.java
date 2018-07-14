@@ -20,7 +20,7 @@ public class HttpUtils {
 
 		HttpGet httpPost = new HttpGet("http://10.21.157.228:18080/PerfAutoTest");
 		httpPost.addHeader("Connection", "keep-alive");
-		// httpPost.addHeader("Connection", "close");
+		httpPost.addHeader("Connection", "close");
 		CloseableHttpClient httpClient = HttpClientBuilder.create().build();
 		CloseableHttpResponse response = null;
 		for (int i = 0; i < 100; i++) {
